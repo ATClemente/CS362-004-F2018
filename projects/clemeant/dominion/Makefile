@@ -35,6 +35,12 @@ testIsGameOver: unittest1.c dominion.o rngs.o
 testGainCard: unittest2.c dominion.o rngs.o
 	gcc -o testGainCard -g unittest2.c dominion.o rngs.o $(CFLAGS)
 
+testDiscardCard: unittest3.c dominion.o rngs.o
+	gcc -o testDiscardCard -g unittest3.c dominion.o rngs.o $(CFLAGS)
+
+testFullDeckCount: unittest4.c dominion.o rngs.o
+	gcc -o testFullDeckCount -g unittest4.c dominion.o rngs.o $(CFLAGS)
+
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
