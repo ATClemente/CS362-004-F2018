@@ -41,6 +41,18 @@ testDiscardCard: unittest3.c dominion.o rngs.o
 testFullDeckCount: unittest4.c dominion.o rngs.o
 	gcc -o testFullDeckCount -g unittest4.c dominion.o rngs.o $(CFLAGS)
 
+testSmithyCard: cardtest1.c dominion.o rngs.o
+	gcc -o testSmithyCard -g cardtest1.c dominion.o rngs.o $(CFLAGS)
+
+testAdventurerCard: cardtest2.c dominion.o rngs.o
+	gcc -o testAdventurerCard -g cardtest2.c dominion.o rngs.o $(CFLAGS)
+
+testTreasureMapCard: cardtest3.c dominion.o rngs.o
+	gcc -o testTreasureMapCard -g cardtest3.c dominion.o rngs.o $(CFLAGS)
+
+testSalvagerCard: cardtest4.c dominion.o rngs.o
+	gcc -o testSalvagerCard -g cardtest4.c dominion.o rngs.o $(CFLAGS)
+
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
