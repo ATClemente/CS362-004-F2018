@@ -53,6 +53,28 @@ testTreasureMapCard: cardtest3.c dominion.o rngs.o
 testSalvagerCard: cardtest4.c dominion.o rngs.o
 	gcc -o testSalvagerCard -g cardtest4.c dominion.o rngs.o $(CFLAGS)
 
+tests: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.o rngs.o 
+	gcc -o testIsGameOver -g unittest1.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testGainCard -g unittest2.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testDiscardCard -g unittest3.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testFullDeckCount -g unittest4.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testSmithyCard -g cardtest1.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testAdventurerCard -g cardtest2.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testTreasureMapCard -g cardtest3.c dominion.o rngs.o $(CFLAGS)
+	gcc -o testSalvagerCard -g cardtest4.c dominion.o rngs.o $(CFLAGS)
+
+unittestresults: testIsGameOver testGainCard testDiscardCard testFullDeckCount testSmithyCard testAdventurerCard testTreasureMapCard testSalvagerCard 
+	./testIsGameOver &> unittestresult.out
+	./testGainCard >> unittestresult.out
+	./testDiscardCard >> unittestresult.out
+	./testFullDeckCount >> unittestresult.out
+	./testSmithyCard >> unittestresult.out
+	./testAdventurerCard >> unittestresult.out
+	./testTreasureMapCard >> unittestresult.out
+	./testSalvagerCard >> unittestresult.out
+	gcov -b dominion.c >> unittestresult.out
+	cat dominion.c.gcov >> unittestresult.out
+
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 

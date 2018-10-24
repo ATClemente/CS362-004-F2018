@@ -62,9 +62,13 @@ int main(){
 	G->supplyCount[17] = 0;
 	G->supplyCount[18] = 0;
 	G->supplyCount[19] = 0;
-	assert(isGameOver(G) == 0);
-	printf("Test 4 PASSED\n");
+	
+	if(isGameOver(G) == 0){
+		printf("Test 4 PASSED\n");
+	}
+	else{
+		printf("Test 4 FAILED\n");
+	}
 
-	printf("All test passed!\n");
 	return 0;
 }
