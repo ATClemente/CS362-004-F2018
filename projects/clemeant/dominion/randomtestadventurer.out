@@ -1,3 +1,12 @@
+Random testing adventurer Card:
+Finished running 10000 tests
+File 'dominion.c'
+Lines executed:25.44% of 562
+Branches executed:22.06% of 417
+Taken at least once:19.42% of 417
+Calls executed:10.53% of 95
+Creating 'dominion.c.gcov'
+
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda

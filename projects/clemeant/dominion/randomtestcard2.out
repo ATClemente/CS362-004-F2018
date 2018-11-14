@@ -1,3 +1,57 @@
+Random testing sea hag Card:
+One card should have been removed from the deck and then a curse added, original count: 58, after count: 55
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 58, after count: 55
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 58, after count: 55
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 87, after count: 84
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 87, after count: 84
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 90, after count: 87
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 90, after count: 87
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 90, after count: 87
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 31, after count: 28
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 69, after count: 66
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 62, after count: 59
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 66, after count: 63
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 66, after count: 63
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 79, after count: 76
+Incorrect card added to discard pile
+curse card not on the top of the deck
+One card should have been removed from the deck and then a curse added, original count: 79, after count: 76
+Incorrect card added to discard pile
+curse card not on the top of the deck
+Finished running 10 tests
+File 'dominion.c'
+Lines executed:25.44% of 562
+Branches executed:22.06% of 417
+Taken at least once:19.42% of 417
+Calls executed:10.53% of 95
+Creating 'dominion.c.gcov'
+
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
